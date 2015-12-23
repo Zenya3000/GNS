@@ -34,9 +34,14 @@
 <!---->
 <!--                            </span>-->
                         </span>
-                            <a href="../Films/id/<?= $row['id'] ?>"><img src="<?= $row['photo'] ?>" width="190px"
-                                                                       alt="Gallery"></a>
-                        <span class="project-details"><a href="../Films/id/<?= $row['id'] ?>"><?= $row['title'] ?></a>Жанр: <?= $row['category'] ?>
+<!--                            <a href="--><?//=SITE?><!--Films/id--><?//= '=' . $row['id'] ?><!--"><img src="--><?//= $row['photo'] ?><!--" width="190px"alt="Gallery"></a>-->
+<!--                                <a href="--><?//=SITE?><!--Films/id--><?//='=' . $row['id']?><!--"><img src="--><?//=AVATAR . $row['photo']?><!--"></a>-->
+                                <a href="<?=SITE?>Films/id<?='=' . $row['id']?>"><img src="<?=SITE?>/files/<?=$row['photo']?>"width="190px"></a>
+
+
+
+                        <span class="project-details"><a href="<?=SITE?>Films/id<?= '=' . $row['id'] ?>"><?= $row['title'] ?></a>
+
                             <br>
                             Год: <?= $row['year'] ?> <br>
                             Добавлен на сайт:<?= $row['date'] ?> <br>

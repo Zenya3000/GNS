@@ -23,28 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Films.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/controllers/Films.php">
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="1" selection-start="1090" selection-end="1090" vertical-scroll-proportion="-18.307692" vertical-offset="272" max-vertical-offset="1105">
-              <folding />
+            <state line="38" column="107" selection-start="2120" selection-end="2120" vertical-scroll-proportion="-18.384615" vertical-offset="168" max-vertical-offset="1292">
+              <folding>
+                <marker date="1450876639297" expanded="true" signature="422:724" placeholder="..." />
+                <marker date="1450876639297" expanded="true" signature="508:724" placeholder="..." />
+                <marker date="1450876639297" expanded="true" signature="1890:2009" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Api.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/controllers/Api.php">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="37" selection-start="827" selection-end="827" vertical-scroll-proportion="-23.538462" vertical-offset="85" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Router.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/Router.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="2" selection-start="861" selection-end="1300" vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="901">
+            <state line="4" column="62" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -56,6 +51,31 @@
             <state line="20" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
               <folding>
                 <marker date="1450186654540" expanded="true" signature="144:162" placeholder="SELECT * fro..city..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignIn.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/model/SignIn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="72" selection-start="1206" selection-end="1206" vertical-scroll-proportion="-22.0" vertical-offset="108" max-vertical-offset="969">
+              <folding>
+                <marker date="1450814397944" expanded="true" signature="615:686" placeholder="SELECT * fro..users..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Films.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/model/Films.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="52" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.6538922" vertical-offset="1035" max-vertical-offset="2414">
+              <folding>
+                <marker date="1450877049098" expanded="true" signature="140:180" placeholder="SELECT * FRO..." />
+                <marker date="1450877049098" expanded="true" signature="440:480" placeholder="SELECT * FRO..." />
+                <marker date="1450877049098" expanded="true" signature="2027:2165" placeholder="INSERT INTO ..." />
+                <marker date="1450877049098" expanded="true" signature="3181:3224" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -86,7 +106,6 @@
         <option value="$PROJECT_DIR$/system/Connect.php" />
         <option value="$PROJECT_DIR$/1.php" />
         <option value="$PROJECT_DIR$/components/view/SignIn.php" />
-        <option value="$PROJECT_DIR$/components/view/actionSignIn.php" />
         <option value="$PROJECT_DIR$/pages/actionSignIn.php" />
         <option value="$PROJECT_DIR$/pages/CookieHead.php" />
         <option value="$PROJECT_DIR$/system/View.php" />
@@ -97,22 +116,25 @@
         <option value="$PROJECT_DIR$/components/controllers/Main.php" />
         <option value="$PROJECT_DIR$/components/view/Main.php" />
         <option value="$PROJECT_DIR$/components/controllers/AddFilm.php" />
-        <option value="$PROJECT_DIR$/pages/AddFilm.php" />
         <option value="$PROJECT_DIR$/components/view/AddFilm.php" />
         <option value="$PROJECT_DIR$/pages/ActionAddFilm.php" />
         <option value="$PROJECT_DIR$/pages/menu.php" />
         <option value="$PROJECT_DIR$/pages/CookieActiveMenu.php" />
-        <option value="$PROJECT_DIR$/components/model/SignIn.php" />
         <option value="$PROJECT_DIR$/components/controllers/Users.php" />
-        <option value="$PROJECT_DIR$/components/model/Users.php" />
         <option value="$PROJECT_DIR$/components/controllers/filmID.php" />
         <option value="$PROJECT_DIR$/pages/FilmID.php" />
-        <option value="$PROJECT_DIR$/components/controllers/Films.php" />
         <option value="$PROJECT_DIR$/components/view/Films.php" />
-        <option value="$PROJECT_DIR$/components/model/Films.php" />
-        <option value="$PROJECT_DIR$/pages/main.php" />
         <option value="$PROJECT_DIR$/components/controllers/Api.php" />
+        <option value="$PROJECT_DIR$/components/view/actionSignIn.php" />
         <option value="$PROJECT_DIR$/system/Router.php" />
+        <option value="$PROJECT_DIR$/components/controllers/Film.php" />
+        <option value="$PROJECT_DIR$/components/model/Users.php" />
+        <option value="$PROJECT_DIR$/components/model/SignIn.php" />
+        <option value="$PROJECT_DIR$/components/controllers/Films.php" />
+        <option value="$PROJECT_DIR$/pages/AddFilm.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/pages/main.php" />
+        <option value="$PROJECT_DIR$/components/model/Films.php" />
       </list>
     </option>
   </component>
@@ -208,10 +230,6 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -302,7 +320,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2735618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18359853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -358,9 +376,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/prettyPhoto.css">
+    <entry file="file://$PROJECT_DIR$/components/model/Films.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="9010" />
+        <state line="109" column="0" selection-start="2983" selection-end="2983" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2176">
+          <folding>
+            <marker date="1450877049098" expanded="true" signature="140:180" placeholder="SELECT * FRO..." />
+            <marker date="1450877049098" expanded="true" signature="440:480" placeholder="SELECT * FRO..." />
+            <marker date="1450877049098" expanded="true" signature="2027:2165" placeholder="INSERT INTO ..." />
+            <marker date="1450877049098" expanded="true" signature="3181:3224" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/controllers/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="38" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="595">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-responsive.css">
@@ -423,11 +455,6 @@
         <state line="1" column="22" selection-start="25" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="18088" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/view/SignIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="244" selection-end="244" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="833" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="7" selection-start="315" selection-end="315" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221" />
@@ -448,94 +475,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/AddFilm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="149" selection-end="149" vertical-scroll-proportion="-0.28263474" vertical-offset="270" max-vertical-offset="1105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/actionSignIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="96" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ActionAddFilm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="586" selection-end="586" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CookieActiveMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="980" selection-end="980" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="476" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/view/Registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="263" selection-end="263" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/view/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="2" selection-start="520" selection-end="520" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/view/AddFilm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/view/actionSignIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="349" selection-end="349" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/controllers/Logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="367" selection-end="367" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/controllers/SignIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="465" selection-end="465" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="160" selection-end="160" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="799" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="36" selection-start="870" selection-end="870" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="16" selection-end="20" vertical-scroll-proportion="0.062653564" vertical-offset="0" max-vertical-offset="814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/controllers/AddFilm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="221" selection-end="221" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/controllers/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/model/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="12" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-20.538462" vertical-offset="384" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/model/SignIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="67" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.79640716" vertical-offset="117" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/View.php">
@@ -552,59 +499,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="222" selection-end="222" vertical-scroll-proportion="0.2239521" vertical-offset="0" max-vertical-offset="835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/controllers/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="219" selection-end="265" vertical-scroll-proportion="0.28502995" vertical-offset="0" max-vertical-offset="835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/model/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="640" selection-end="640" vertical-scroll-proportion="0.31856287" vertical-offset="108" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/FilmID.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="286" selection-end="286" vertical-scroll-proportion="0.24489796" vertical-offset="0" max-vertical-offset="833">
+        <state line="12" column="20" selection-start="286" selection-end="286" vertical-scroll-proportion="0.24489796" vertical-offset="0" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/Connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="1" selection-start="481" selection-end="481" vertical-scroll-proportion="0.5102041" vertical-offset="0" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/model/Films.php">
+    <entry file="file://$PROJECT_DIR$/system/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="22" selection-start="3012" selection-end="3012" vertical-scroll-proportion="2.2182927" vertical-offset="0" max-vertical-offset="2006">
-          <folding>
-            <marker date="1450650398999" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1450650398999" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1450650398999" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1450650398999" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
+        <state line="16" column="5" selection-start="222" selection-end="222" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="54" selection-start="643" selection-end="643" vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/actionSignIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/controllers/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="37" selection-start="827" selection-end="827" vertical-scroll-proportion="-24.538462" vertical-offset="59" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/controllers/AddFilm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="221" selection-end="221" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/controllers/Logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="367" selection-end="367" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/controllers/SignIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="465" selection-end="465" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/controllers/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/view/actionSignIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="349" selection-end="349" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/view/AddFilm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/view/Films.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="1" selection-start="882" selection-end="882" vertical-scroll-proportion="0.85714287" vertical-offset="0" max-vertical-offset="833">
+        <state line="47" column="1" selection-start="882" selection-end="882" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/view/Registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="273" selection-end="273" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="113" selection-start="702" selection-end="706" vertical-scroll-proportion="0.24431138" vertical-offset="0" max-vertical-offset="835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/model/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="44" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.6946108" vertical-offset="134" max-vertical-offset="969">
+          <folding>
+            <marker date="1450806646349" expanded="true" signature="-1:-1" placeholder="Select * fro..users..." />
+            <marker date="1450806646349" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/view/SignIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="244" selection-end="244" vertical-scroll-proportion="0.30538923" vertical-offset="0" max-vertical-offset="835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ActionAddFilm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.18323353" vertical-offset="0" max-vertical-offset="835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CookieActiveMenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="980" selection-end="980" vertical-scroll-proportion="0.4479042" vertical-offset="0" max-vertical-offset="835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="62" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/controllers/Films.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="44" selection-start="845" selection-end="845" vertical-scroll-proportion="0.651497" vertical-offset="0" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.6938776" vertical-offset="0" max-vertical-offset="1207">
+        <state line="38" column="107" selection-start="2120" selection-end="2120" vertical-scroll-proportion="-18.384615" vertical-offset="168" max-vertical-offset="1292">
+          <folding>
+            <marker date="1450876639297" expanded="true" signature="422:724" placeholder="..." />
+            <marker date="1450876639297" expanded="true" signature="508:724" placeholder="..." />
+            <marker date="1450876639297" expanded="true" signature="1890:2009" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/AddFilm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="34" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.6311377" vertical-offset="0" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
@@ -618,31 +652,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/controllers/Films.php">
+    <entry file="file://$PROJECT_DIR$/components/model/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="1" selection-start="1090" selection-end="1090" vertical-scroll-proportion="-18.307692" vertical-offset="272" max-vertical-offset="1105">
+        <state line="48" column="25" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.8479042" vertical-offset="108" max-vertical-offset="969">
+          <folding>
+            <marker date="1450368236721" expanded="true" signature="-1:-1" placeholder="SELECT films..." />
+            <marker date="1450368236721" expanded="true" signature="-1:-1" placeholder="SELECT Name,..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/view/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="404" selection-end="404" vertical-scroll-proportion="0.42754492" vertical-offset="0" max-vertical-offset="835">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/Connect.php">
+    <entry file="file://$PROJECT_DIR$/components/controllers/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="481" selection-end="481" vertical-scroll-proportion="0.5102041" vertical-offset="0" max-vertical-offset="833">
+        <state line="30" column="32" selection-start="516" selection-end="516" vertical-scroll-proportion="0.50898206" vertical-offset="0" max-vertical-offset="835">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/controllers/Api.php">
+    <entry file="file://$PROJECT_DIR$/components/model/SignIn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="37" selection-start="827" selection-end="827" vertical-scroll-proportion="-23.538462" vertical-offset="85" max-vertical-offset="918">
-          <folding />
+        <state line="45" column="72" selection-start="1206" selection-end="1206" vertical-scroll-proportion="-22.0" vertical-offset="108" max-vertical-offset="969">
+          <folding>
+            <marker date="1450814397944" expanded="true" signature="615:686" placeholder="SELECT * fro..users..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/Router.php">
+    <entry file="file://$PROJECT_DIR$/components/model/Films.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="2" selection-start="861" selection-end="1300" vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="901">
-          <folding />
+        <state line="93" column="52" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.6538922" vertical-offset="1035" max-vertical-offset="2414">
+          <folding>
+            <marker date="1450877049098" expanded="true" signature="140:180" placeholder="SELECT * FRO..." />
+            <marker date="1450877049098" expanded="true" signature="440:480" placeholder="SELECT * FRO..." />
+            <marker date="1450877049098" expanded="true" signature="2027:2165" placeholder="INSERT INTO ..." />
+            <marker date="1450877049098" expanded="true" signature="3181:3224" placeholder="SELECT * FRO..." />
+          </folding>
         </state>
       </provider>
     </entry>

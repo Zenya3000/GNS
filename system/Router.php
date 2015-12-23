@@ -13,11 +13,16 @@ class Router {
 function loadPage(){
     $path = $_SERVER['REQUEST_URI'];
     $pathArray = explode('/', $path);
+
     $magicNumber = 2;
 
     $ClassName = $pathArray[$magicNumber] ? ucfirst(strtolower($pathArray[$magicNumber])) : 'Main';
-
     $MethodName  = $pathArray[$magicNumber +1] ? $pathArray[$magicNumber +1]: "Index";
+    if($MethodName!="index"){
+       $pathMethod = explode('=',$pathArray[$magicNumber +1]);
+       $MethodName = $pathMethod[0]?$pathMethod[0]: "index";
+
+    }
 
     $args = array_splice($pathArray, $magicNumber +2);
 

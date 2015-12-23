@@ -49,7 +49,6 @@ class Films extends Controller
 
     public function id()
     {
-
         $this->model = new \components\model\Main();
         $res = $this->model->Cookie();
         $this->model = new \components\model\Films();

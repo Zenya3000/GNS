@@ -1,5 +1,5 @@
 <div class="container">
-    <form class="form-horizontal" role="form" action="<?=SITE?>Films/AddFilm" method="post">
+    <form  class="form-horizontal" role="form" action="<?=SITE?>Films/AddFilm" enctype="multipart/form-data" method="post">
         <div class="form-group">
             <br>
             <label for="inputName" class="col-sm-2 control-label">Название фильма</label>
@@ -15,9 +15,9 @@
         </div>
 
         <div class="form-group">
-            <label for="inputPhoto" class="col-sm-2 control-label">Фотография</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputName" placeholder="Вставьте ссылку на фотографию" name="photo">
+            <label for="inputFile" class="col-sm-5 control-label">Фотография</label>
+            <div class="col-sm-5">
+                <input type="file" class="icon-file" id="inputAvatar" name="avatar">
             </div>
         </div>
 

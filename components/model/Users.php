@@ -15,23 +15,6 @@ class Users extends Model
 {
 
 
-    public function getCity()
-    {
-
-
-        $sql = "SELECT * from city";
-        $query = $this->db->pdo->prepare($sql);
-        $query->execute();
-//        $city = $query->fetch(\PDO::FETCH_COLUMN, 0);
-        While ($array = $query->fetch(\PDO::FETCH_ASSOC)) {
-            $city[] = $array;
-        };
-
-
-        return ($city);
-
-    }
-
     public function registrateUser()
     {
         $sql = "Select * from users where Mail = :Email";
@@ -47,26 +30,28 @@ class Users extends Model
         if (isset($array)) {
             $user = "Пользователь с таким Емейлом уже существует!";
             echo $user;
-            return $user;
-        } else {
-           $pass = md5($_POST['pass']);
-            $sql = "INSERT INTO `users` (`id`, `Mail`, `password`, `Name`, `cityid`) VALUES ('',:mail,:pass,:name,:city)";
-            $query = $this->db->pdo->prepare($sql);
-                $query->bindParam(":mail", $_POST['Email']);
-                $query->bindParam(":pass", $pass);
-                $query->bindParam(":name", $_POST['Name']);
-                $query->bindParam(":city", $_POST['city']);
-            $query->execute();
-            $idlogin = $this->db->pdo->lastInsertId();
-            if($query){
-            $_SESSION['bool']=true;
-            setcookie("statusAuth", true, time() + 60*60*24*365, '/');
-            setcookie("id", $idlogin, time() + 60*60*24*365, '/');
-            setcookie("Name", $_POST['Email'], time() + 60*60*24*365, '/');
-            header("Refresh:1;url=../");
-          echo "Авторизация прошла успешно... перемещаю :)";
-            }
+
         }
+        $pass = md5($_POST['Pass']);
+        $email = $_POST['Email'];
+
+        $sql = "INSERT INTO `users` (`id`, `Mail`, `password`, `Name`, `cityid`) VALUES ('',:mail,:pass,:name,:city)";
+        $query = $this->db->pdo->prepare($sql);
+        $query->bindParam(":mail", $email, \PDO::PARAM_STR);
+        $query->bindParam(":pass", $pass, \PDO::PARAM_STR);
+        $query->bindParam(":name", $_POST['Name'], \PDO::PARAM_STR);
+        $query->bindParam(":city", $_POST['city']);
+        $query->execute();
+        $idlogin = $this->db->pdo->lastInsertId();
+        if ($query) {
+            $_SESSION['bool'] = true;
+            setcookie("statusAuth", true, time() + 60 * 60 * 24 * 365, '/');
+            setcookie("id", $idlogin, time() + 60 * 60 * 24 * 365, '/');
+            setcookie("Name", $_POST['Email'], time() + 60 * 60 * 24 * 365, '/');
+            header("Refresh:1;url=../");
+            echo "Авторизация прошла успешно... перемещаю :)";
+        }
+
     }
 
 }
